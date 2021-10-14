@@ -1,32 +1,26 @@
 #include <iostream>
+
 using namespace std;
-void percentage (double Marks,double Marks1,double Marks2,double Marks3,double Marks4,double Marks5 ){
 
-cout << "Your percentage is " << (Marks+Marks+Marks2+Marks3+Marks4+Marks5)/600 *100 << "%.";
+void swaps(int num1,int num2){
 
-
-
-
+  cout << "The first number is " << num2 << endl;
+cout << "The second number is " << num1 << endl;
 
 
 }
-
 int main()
-{double Marks,Marks1,Marks2,Marks3,Marks4,Marks5;
-    cout << "Enter your marks in Mathematics(out of 100):";
-    cin >> Marks;
-    cout << "Enter your marks in Science(out of 100):";
-    cin >> Marks1;
-    cout << "Enter your marks in SST(out of 100):";
-    cin >> Marks2;
-    cout << "Enter your marks in English(out of 100):";
-    cin >> Marks3;
-    cout << "Enter your marks in Hindi(out of 100):";
-    cin >> Marks4;
-    cout << "Enter your marks in 3rd language(out of 100):";
-    cin >> Marks5;
+{
+   int num1;
+   int num2;
 
-   percentage(Marks,Marks1,Marks2,Marks3,Marks4,Marks5);
+    cout << "Enter first number:" ;
+    cin >> num1;
+
+    cout << "Enter second number";
+    cin >> num2;
+
+    swaps(num1,num2);
 
     return 0;
 }
