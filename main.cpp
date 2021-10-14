@@ -1,26 +1,26 @@
 #include <iostream>
 
+
 using namespace std;
 
-void swaps(int num1,int num2){
-
-  cout << "The first number is " << num2 << endl;
-cout << "The second number is " << num1 << endl;
-
-
+double area(int radius)
+{
+  double piValue = 3.14;
+  double area_of_circle = radius * radius * piValue;
+  //return area_of_circle;
 }
+
+
 int main()
 {
-   int num1;
-   int num2;
 
-    cout << "Enter first number:" ;
-    cin >> num1;
+   int radius;
+   cout << "Enter the radius of circle(in cm):";
+   cin>>  radius;
 
-    cout << "Enter second number";
-    cin >> num2;
+   area(radius);
 
-    swaps(num1,num2);
+   //cout << "The area of the circle is " << area_of_circle << " sq.cm" ;
 
     return 0;
 }
